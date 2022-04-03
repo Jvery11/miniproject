@@ -1,0 +1,183 @@
+body, html{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logowrap{
+display: flex;
+justify-content: center;
+
+}
+.logo{
+    padding: 50px;
+    font-size: 40px;
+}
+
+.topnav{
+    background-color: #8080806c;
+    overflow: hidden;
+}
+
+.topnav a{
+float: left;
+display: block;
+text-align: center;
+padding: 20px 30px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+.topnav a:active{
+    color: black;
+}
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
+#contact{
+    float: right;
+    padding-right: 50px;
+}
+
+.mainphoto{
+    border: 5px solid black;
+    margin-top: 1%;
+    width: 100%;
+    height: 700px;
+    background-image: url(../photos/mainphoto1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    filter: blur(6px);
+}
+.maintext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: rgba(0,0,0,0.4 );
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    line-height: 60px;
+    margin-top: 50px;
+
+}
+.header{
+    font-size: 50px;
+}
+.desc{
+    font-size: 25px;
+}
+.autowrap{
+display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: center;
+margin-top: 1%;
+
+}
+.car{
+    width: 50%;
+    height: 650px;
+    background-image: url(../photos/gmcindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cartext{
+    width: 50%;
+    height: 650px;
+    background-color: #8080806c;
+    text-align: center;
+}
+
+ p{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+h2{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    font-size:30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px 20px;
+    
+}
+h2 a{
+    color: black;
+    text-decoration: none;
+}
+h2 a:hover{
+    text-shadow: 
+    0px 0px 30px rgb(173, 30, 30),
+    0px 0px 60px rgb(153, 22, 22),
+    0px 0px 100px rgb(139, 9, 9);
+}
+.portwrap{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.port{
+    width: 50%;
+    height: 650px;
+    background-image: url(../photos/Portindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.porttext{
+    width: 50%;
+    height: 650px;
+    background-color: #8080806c;
+    text-align: center;
+
+}
+.contwrap{
+    margin-top: 1%;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #8080806c;
+    justify-content: center;
+
+}
+.conthead{
+   margin-top: 3%;
+   font-weight: lighter;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.socials{
+position: absolute;
+margin-top: 10%;
+}
+.socials a{
+    padding: 0px 20px 0px 20px;
+    
+}
+
+
