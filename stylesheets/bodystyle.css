@@ -137,6 +137,12 @@ justify-content: center;
 width: 100%;
 padding-bottom: 5%;
 }
+.tablehead{
+    font-size: 25px;
+    font-weight: lighter;
+    background-color: white;
+    border: none;
+}
 
 td{
     border: 2px solid black;
@@ -146,6 +152,7 @@ td{
     background-color: #8080806c;
    
 }
+
 th{
 padding: 20px 0px 20px 0px ;
 font-size: 25px;
